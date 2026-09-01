@@ -1,8 +1,8 @@
 html {
-   margin: 0px;
-   height: 100%;
-   width: 100%;
-   font-family: Roboto, sans-serif;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -14,6 +14,8 @@ body {
     min-height: 100%;
     width: 100%;
 }
+
+
 
 .logo {
     font-size: 24px;
@@ -37,18 +39,21 @@ body {
     background-color: #1F2937;
     width: 100%;
     color: white;
+    height: 350px;    
 }
 
 .hero {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin : 5px 0px;
+    margin: 0;
 }
 
 .hero-sec {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 
 
@@ -58,8 +63,8 @@ body {
     flex-direction: column;
     padding: 20px;
     justify-content: center;
-    
-    
+
+
 }
 
 .info-head {
@@ -93,11 +98,11 @@ body {
 
 .quote {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     background-color: #E5E7EB;
     width: 100%;
     align-items: center;
-    
+
 }
 
 .author {
@@ -127,16 +132,18 @@ ul {
 
 li {
     margin: 0px 10px;
-    
+
 }
+
 a {
     text-decoration: none;
     color: white;
 }
 
 figure {
-    flex-basis: 30%;
+    flex-basis: 100%;
     text-align: center;
+    max-height: 250px;;
 }
 
 img {
@@ -150,4 +157,31 @@ button {
     border: none;
     border-radius: 4px;
     background-color: #3882F6;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px 15%;
+    margin: 20px 0px;
+    color: white;
+    border-radius: 8px;
+    gap: 12px;
+}
+
+.cta-button {
+    align-self: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
 }
